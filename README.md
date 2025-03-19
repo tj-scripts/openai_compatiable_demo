@@ -102,6 +102,26 @@ backup_count = 5
 
 ## 💬 Usage
 
+### Web UI Interface
+
+<img src="tj/resources/en.png" alt="Web UI Interface" width="80%" height="80%">
+
+Run the web UI interface:
+```bash
+python -m tj.scripts.ui
+```
+
+The web interface provides:
+- Interactive chat interface
+- Chat history management
+- Configurable parameters (temperature, max tokens)
+- Clear history button
+- Responsive design
+
+The interface will be available at:
+- Local: http://localhost:7860
+- Public URL: (will be shown in the terminal)
+
 ### Interactive Chat
 
 Run the interactive chat demo:
@@ -149,7 +169,6 @@ User: Can you help me write a Python function?
 Assistant: Of course! Please let me know what functionality you want to implement...
 
 ===================
-```
 
 ## 🛠️ Development
 

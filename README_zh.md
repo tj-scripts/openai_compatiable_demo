@@ -102,6 +102,26 @@ backup_count = 5
 
 ## 💬 使用方法
 
+### Web UI 界面
+
+<img src="tj/resources/zh.png" alt="Web UI Interface" width="80%" height="80%">
+
+运行 Web UI 界面：
+```bash
+python -m tj.scripts.ui
+```
+
+Web 界面提供以下功能：
+- 交互式聊天界面
+- 聊天历史管理
+- 可配置参数（温度、最大令牌数）
+- 清空历史按钮
+- 响应式设计
+
+界面访问地址：
+- 本地访问：http://localhost:7860
+- 公共 URL：（将在终端中显示）
+
 ### 交互式聊天
 
 运行交互式聊天演示：
@@ -149,7 +169,6 @@ User: 你能帮我写一个 Python 函数吗？
 Assistant: 当然可以！请告诉我你想要实现什么功能...
 
 ===================
-```
 
 ## 🛠️ 开发
 

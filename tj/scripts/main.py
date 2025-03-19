@@ -130,7 +130,7 @@ async def chat_example() -> None:
         # Get OpenAI API configuration
         api_config = config.get_section("api").get("siliconflow", {})
         if not api_config:
-            raise ConfigError("OpenAI API configuration not found")
+            raise ConfigError("SiliconFlow API configuration not found")
         
         # Create OpenAI client
         client = OpenAIClient(api_config)
